@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JK JOY Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2 class="logo">JK GROUP</h2>
+
+  <nav>
+    <a href="#" onclick="showPage('home')">Home</a>
+    <a href="#" onclick="showPage('about')">About</a>
+    <a href="#" onclick="showPage('portfolio')">Portfolio</a>
+    
+    <a href="#" onclick="showPage('contact')">Contact</a>
+  </nav>
+
+  <a href="cv.pdf" class="cv" download>Download CV</a>
+</header>
+
+<main>
+  <section id="home" class="page-section">
+    <div class="hero-text">
+      <h3>Hello I'm</h3>
+      <h1>JOY KUNDU</h1>
+      <h4>A <span>Creative Designer</span> From Bangladesh</h4>
+      <p>I'm passionate about creating beautiful and modern websites.</p>
+      <button onclick="showPage('portfolio')">Portfolio</button>
+      <button onclick="showPage('contact')">Hire Me</button>
+    </div>
+
+    <div class="profile">
+      <img src="joy.jpeg" alt="">
+    </div>
+
+    
+    </div>
+  </section>
+
+  <section id="about" class="page-section">
+    <h1>About Me</h1>
+    <img class="about-img" src="joy.jpeg" alt="About me">
+    <p>I am a web designer learning HTML, CSS and JavaScript.</p>
+    <p>I enjoy building clean and modern websites.</p>
+  </section>
+
+  <section id="portfolio" class="page-section">
+    <h1>My Portfolio</h1>
+    <div class="projects">
+      <div>Website Design</div>
+      <div>UI/UX Design</div>
+      <div>Graphic Design</div>
+    </div>
+  </section>
+
+  <section id="service" class="page-section">
+    <h1>My Services</h1>
+    <div class="projects">
+      <div>Web Design</div>
+      <div>Website Development</div>
+      <div>Responsive Design</div>
+    </div>
+  </section>
+
+  <section id="blog" class="page-section">
+    <h1>My Blog</h1>
+    <p>Welcome to my web development journey.</p>
+  </section>
+
+  <section id="contact" class="page-section">
+    <h1>Contact Me</h1>
+    
+    <a href="mailto:joy@example.com" class="button">Send Email</a>
+  </section>
+</main>
+
+<div id="overlay" onclick="closePage()"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
