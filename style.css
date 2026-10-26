@@ -71,9 +71,7 @@ nav a:hover {
     border: black;
 }
 
-.page-section {
-  display: none;
-}
+
 
 .page-section.active {
   display: block;
