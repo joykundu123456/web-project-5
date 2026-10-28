@@ -115,10 +115,12 @@ nav a:hover {
 }
 
 .hero-text p,
+
 .page-section p {
-  color: #1b1919;
+   color: #1b1919;
   
   margin: 12px 0 ;
+ 
 }
 
 button {
